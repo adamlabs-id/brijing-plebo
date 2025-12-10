@@ -127,6 +127,7 @@ Request Body
 {
   "message": "Bad request",
   "success": false,
+  "code": 400,
   "errors": [
     {
       "field": "periksa_now",
@@ -141,6 +142,7 @@ Request Body
 {
   "messsage": "Internal Server Error",
   "success": false,
+  "code": 500,
   "errors": [
     {
       "message": "Gagal membuat MCU, silakan coba lagi setelah 5 menit"
@@ -154,6 +156,7 @@ Request Body
 {
   "messsage": "Conflic",
   "success": false,
+  "code": 409,
   "errors": [
     {
       "message": "Nomer RM duplikat ditemukan: VORTEXU001"
