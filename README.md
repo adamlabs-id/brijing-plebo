@@ -2,7 +2,7 @@
 
 ## POST MCU
 ``` http
-http://{{HOST}}/adam-lis/api/v1/registrasi_bulk_mcu/create?kode_rs=J05&kode_lab=LAB_One_Plebo
+http://bridging-plebo.adamlabs.id/adam-lis/api/v1/registrasi_bulk_mcu/create?kode_rs=J05&kode_lab=LAB_One_Plebo
 ```
 NOTE: gunakan `kode_rs` dan `kode_lab` yang telah terintegrasi dengan Adamlis
 
